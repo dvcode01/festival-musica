@@ -1,0 +1,27 @@
+{
+  "name": "proyecto-festival-nuevo",
+  "version": "1.0.0",
+  "description": "proyecto de practica de sass y npm",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp"
+  },
+  "keywords": [
+    "sass",
+    "npm",
+    "gulp"
+  ],
+  "author": "david olivero",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^10.4.1",
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.77.2",
+    "sharp": "^0.33.4"
+  }
+}
